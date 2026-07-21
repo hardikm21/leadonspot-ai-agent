@@ -1,0 +1,62 @@
+[
+  {
+    "input": {
+      "name": "Priya Nair",
+      "email": "priya.nair@finserve.com",
+      "phone": "9123456780",
+      "company": "FinServe Capital",
+      "designation": "Chief Technology Officer",
+      "industry": "FinTech",
+      "employees": "500-1000",
+      "country": "India",
+      "source": "LinkedIn Ad",
+      "message": "We need to implement an AI lead scoring system by next month for our sales team of 50+. Budget is approved, just need the right vendor."
+    },
+    "expected_priority": "HOT"
+  },
+  {
+    "input": {
+      "name": "Aman Verma",
+      "email": "aman.v@gmail.com",
+      "phone": "9988776655",
+      "company": "Freelance",
+      "designation": "Student",
+      "industry": "Education",
+      "employees": "1",
+      "country": "India",
+      "source": "Organic Search",
+      "message": "just curious how this works, doing a college project"
+    },
+    "expected_priority": "COLD"
+  },
+  {
+    "input": {
+      "name": "Sarah Thompson",
+      "email": "sarah.t@retailco.com",
+      "phone": "447700900123",
+      "company": "RetailCo UK",
+      "designation": "Marketing Manager",
+      "industry": "Retail",
+      "employees": "50-200",
+      "country": "United Kingdom",
+      "source": "Referral",
+      "message": "We're evaluating a few AI tools for lead qualification over the next quarter, would like to understand pricing and features."
+    },
+    "expected_priority": "WARM"
+  },
+  {
+    "input": {
+      "name": "Carlos Mendes",
+      "email": "carlos@localbakery.com",
+      "phone": "5511987654321",
+      "company": "Mendes Bakery Supplies",
+      "designation": "Owner",
+      "industry": "Food & Beverage",
+      "employees": "5-10",
+      "country": "Brazil",
+      "source": "Website Contact Form",
+      "message": "Interested but we have a very limited budget, want to see if there's an affordable plan."
+    },
+    "expected_priority": "WARM"
+  }
+]

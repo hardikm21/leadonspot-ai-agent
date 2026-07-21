@@ -12,6 +12,8 @@ A REST API built with FastAPI that accepts lead information and returns AI-gener
 - Unit tests with mocked AI responses
 - Docker support
 
+- Evaluation dataset (`eval/sample_leads.json`) with expected outcomes for manual QA
+
 ## Tech Stack
 
 - **Backend:** FastAPI
@@ -125,15 +127,15 @@ pytest
 
 ```
 app/
-  main.py
-  models/
-    request_models.py
-    response_models.py
-  routers/
-    lead.py
-  services/
-    llm_service.py
-    prompt_templates.py
+├── main.py
+├── models/
+│   ├── request_models.py
+│   └── response_models.py
+├── routers/
+│   └── lead.py
+├── services/
+│   ├── llm_service.py
+│   └── prompt_templates.py
 tests/
 Dockerfile
 ```
