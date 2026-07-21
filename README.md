@@ -123,20 +123,20 @@ pytest
 
 ## Project Structure
 
-\`\`\`
+```
 app/
-├── main.py
-├── models/
-│   ├── request_models.py
-│   └── response_models.py
-├── routers/
-│   └── lead.py
-├── services/
-│   ├── llm_service.py
-│   └── prompt_templates.py
+  main.py
+  models/
+    request_models.py
+    response_models.py
+  routers/
+    lead.py
+  services/
+    llm_service.py
+    prompt_templates.py
 tests/
 Dockerfile
-\`\`\`
+```
 
 ## Author
 
